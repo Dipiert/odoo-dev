@@ -17,6 +17,15 @@ python-pydot python-pyparsing python-reportlab python-simplejson
 python-tz python-vatnumber python-vobject python-webdav
 python-werkzeug python-xlwt python-yaml python-imaging
 python-matplotlib python-decorator python-requests python-passlib
+python-mock python-unittest2
+```
+
+* aeroolib:
+```
+$ sudo apt-get install bzr
+$ bzr branch lp:aeroolib
+$ cd aeroolib/
+$ sudo python ./setup.py install
 ```
 
 https://doc.odoo.com/7.0/install/linux/server/#installing-the-required-packages
